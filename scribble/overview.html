@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scribble - Simple Notes | Fast Note-Taking with Auto-Save & Cloud Sync</title>
+    <meta name="description" content="Fast and simple note-taking app with auto-save and Google Drive sync. Capture your thoughts instantly with Scribble.">
+    <link rel="icon" type="image/png" href="icons/notes.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <img src="icons/notes.png" alt="Scribble Logo">
+                    <span>Scribble</span>
+                </div>
+                <div class="nav-links">
+                    <a href="../index.html" class="home-link">
+                        <i data-lucide="home"></i>
+                        Home
+                    </a>
+                    <a href="#features">Features</a>
+                    <a href="#how-it-works">How It Works</a>
+                    <a href="#download">Download</a>
+                    <a href="privacy.html">Privacy</a>
+                    <a href="policy.html">Terms</a>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="../index.html" class="home-link">
+            <i data-lucide="home"></i>
+            Home
+        </a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#download">Download</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="policy.html">Terms</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Simple Notes, <span class="gradient-text">Powerful Results</span>
+                    </h1>
+                    <p class="hero-description">
+                        Scribble is your fast and simple note-taking companion. Capture thoughts instantly 
+                        with auto-save and seamless Google Drive sync. No complexity, just pure productivity.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="https://chromewebstore.google.com/detail/egjiealcmgejdhlbdfmejcgpkleabnbk" class="btn btn-primary" target="_blank" rel="noopener">
+                            <i data-lucide="download"></i>
+                            Get Started Free
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i data-lucide="sparkles"></i>
+                            Explore Features
+                        </a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <i data-lucide="zap"></i>
+                            <span>Instant Auto-Save</span>
+                        </div>
+                        <div class="stat">
+                            <i data-lucide="cloud"></i>
+                            <span>Cloud Sync</span>
+                        </div>
+                        <div class="stat">
+                            <i data-lucide="shield-check"></i>
+                            <span>Privacy First</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="image/1.png" alt="Scribble Interface">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2>Everything You Need, Nothing You Don't</h2>
+                <p>Powerful features wrapped in a simple, elegant interface</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="zap"></i>
+                    </div>
+                    <h3>Auto-Save</h3>
+                    <p>Never lose your thoughts. Every keystroke is automatically saved in real-time.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="cloud"></i>
+                    </div>
+                    <h3>Google Drive Sync</h3>
+                    <p>Seamlessly sync your notes across all devices with secure Google Drive integration.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="layout-panel-left"></i>
+                    </div>
+                    <h3>Side Panel Access</h3>
+                    <p>Quick access from your browser's side panel. Take notes without leaving your workflow.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="palette"></i>
+                    </div>
+                    <h3>Clean Interface</h3>
+                    <p>Distraction-free design that lets you focus on what matters - your ideas.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="lock"></i>
+                    </div>
+                    <h3>Secure & Private</h3>
+                    <p>Your notes are encrypted and stored securely. We never access or sell your data.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i data-lucide="smartphone"></i>
+                    </div>
+                    <h3>Cross-Device</h3>
+                    <p>Access your notes from any device, anywhere. Always in sync, always available.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get Started in Seconds</h2>
+                <p>Three simple steps to better note-taking</p>
+            </div>
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-image">
+                        <img src="image/2.png" alt="Install Scribble">
+                    </div>
+                    <h3>Install Extension</h3>
+                    <p>Add Scribble to Chrome with one click. No signup required to start taking notes.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-image">
+                        <img src="image/3.png" alt="Start Writing">
+                    </div>
+                    <h3>Start Writing</h3>
+                    <p>Open the side panel and start typing. Your notes are automatically saved as you write.</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-image">
+                        <img src="image/4.png" alt="Sync Everywhere">
+                    </div>
+                    <h3>Sync with Google Drive</h3>
+                    <p>Sign in with Google to sync your notes across all your devices instantly.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Screenshots Section -->
+    <section class="screenshots">
+        <div class="container">
+            <div class="section-header">
+                <h2>Beautiful & Functional</h2>
+                <p>A note-taking experience designed for simplicity and speed</p>
+            </div>
+            <div class="screenshots-grid">
+                <div class="screenshot-card">
+                    <img src="image/1.png" alt="Scribble Main Interface">
+                </div>
+                <div class="screenshot-card">
+                    <img src="image/2.png" alt="Scribble Side Panel">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <h2>Ready to Simplify Your Note-Taking?</h2>
+                <p>Join users who trust Scribble for their daily note-taking needs</p>
+                <div class="download-buttons">
+                    <a href="https://chromewebstore.google.com/detail/egjiealcmgejdhlbdfmejcgpkleabnbk" class="btn btn-primary btn-large" target="_blank" rel="noopener">
+                        <i data-lucide="chrome"></i>
+                        Add to Chrome - It's Free
+                    </a>
+                </div>
+                <p class="download-note">Free forever • No credit card required • Privacy focused</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <img src="icons/notes.png" alt="Scribble Logo">
+                        <span>Scribble</span>
+                    </div>
+                    <p>Simple notes with powerful auto-save and cloud sync</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#how-it-works">How It Works</a>
+                        <a href="#download">Download</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="privacy.html">Privacy Policy</a>
+                        <a href="policy.html">Terms of Service</a>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Connect</h4>
+                        <a href="mailto:support@scribble.app">Support</a>
+                        <a href="#">Feedback</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Scribble. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
